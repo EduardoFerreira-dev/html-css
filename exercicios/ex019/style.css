@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Pixar;
+    src: url('fonte.ttf')format('truetype');
+}
+
+body {
+    background-color: rgba(186, 237, 237, 0.638);
+   font-family: 'Pixar', Courier, monospace;
+}
+#pricipal {
+    text-align: center;
+    background-color: green;
+    color: rgb(186, 237, 237);
+    border-radius: 15px;
+}
+
+h1 {
+    color: rgb(2, 99, 65);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(52, 120, 96);
+}

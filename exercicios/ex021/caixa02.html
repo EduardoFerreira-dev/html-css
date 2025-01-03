@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        @font-face {
+            font-family: Pixar;
+            src: url('fonte.ttf')format('truetype');
+
+        }
+        body {
+            font-family: Pixar, Helvetica, sans-serif;
+            background-color: rgb(26, 21, 21);
+        
+        }
+
+        header {
+            background-color: rgb(0, 0, 0);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            color: red;
+        }
+
+        h1 {
+            text-align: center;
+            box-shadow: 1px 1px 10px rgba(255, 0, 0, 0.847);
+        }
+
+        nav {
+            text-align: center;
+            background-color: rgb(223, 223, 218);
+            padding: 3px;
+            border-radius: 15px;
+            box-shadow: 1px 1px 10px rgba(247, 0, 0, 0.766);
+        }
+
+        nav > a {
+            background-color: red;
+            color: white;
+            font-weight: bold;
+            margin-right: 45px;
+            border-radius: 15px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: rgb(0, 0, 0);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            color: red;
+        }
+
+        article > aside {
+            background-color: rgb(192, 192, 215);
+        }
+
+        footer {
+            background-color: black;
+            color: red;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            border-radius: 5px;
+
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 200px;
+            width: 200px;
+            margin: 20px auto;
+            background-color: aqua;
+            border-radius: 50%;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Nóticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam fuga ipsa impedit saepe dolor delectus sequi! Minima quo molestias, aperiam facilis dolorum, officia autem dolorem cupiditate itaque cumque deserunt culpa?
+                Atque laudantium ducimus debitis dignissimos inventore architecto adipisci facilis numquam harum molestiae omnis pariatur illo culpa dolore tempora necessitatibus praesentium ad, aspernatur cupiditate quidem nulla exercitationem aliquam nam. Vitae, ex.
+                Consectetur nisi quod dolorum quisquam vitae qui sed at iste maiores perferendis placeat, molestiae eos harum esse voluptas nam dicta asperiores sunt, atque ipsum modi. Provident ea blanditiis natus eum?</p>
+                <aside>
+            <p>Artigo escrito por João da Silva</p>
+                </aside>
+             </article>
+             <article>
+
+             </article>
+        </section>
+    </main>
+    <footer>
+        <p>Site desenvolvido por Eduardo Ferrira Melo</p>
+
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
